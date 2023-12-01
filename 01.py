@@ -1,4 +1,4 @@
-def solve(numbers: dict[str]) -> int:
+def solve(numbers: dict[str, int]) -> int:
     results = []
     with open('01/input') as f:
         for line in f:
